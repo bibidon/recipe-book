@@ -3,6 +3,7 @@ import { enableProdMode } from '@angular/core';
 
 import { RecipeBookComponent, environment } from './app/';
 import { AppModule } from './app/app.module';
+import { ShoppingListService } from "./app/shopping-list";
 
 if (environment.production) {
   enableProdMode();
