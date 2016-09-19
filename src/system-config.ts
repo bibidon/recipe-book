@@ -43,6 +43,7 @@ const barrels: string[] = [
   'app/recipes/shopping-list',
   'app/shopping-list',
   'app/shopping-list/shopping-list-add',
+  'app/recipes/recipe-edit',
   /** @cli-barrel */
 ];
 
