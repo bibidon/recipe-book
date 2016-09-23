@@ -1,13 +1,9 @@
-import { Component } from '@angular/core';
-import {ROUTER_DIRECTIVES} from "@angular/router";
-
-import { HeaderComponent } from "./header.component";
+import {Component} from '@angular/core';
 
 @Component({
-  moduleId: module.id,
-  selector: 'recipe-book-app',
-  templateUrl: 'recipe-book.component.html',
-  directives: [HeaderComponent, ROUTER_DIRECTIVES]
+    moduleId: module.id,
+    selector: 'recipe-book-app',
+    templateUrl: 'recipe-book.component.html'
 })
 export class RecipeBookComponent {
 }
