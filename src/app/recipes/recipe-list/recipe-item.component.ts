@@ -10,6 +10,6 @@ import {Recipe} from "../recipe"
   directives: [ROUTER_DIRECTIVES]
 })
 export class RecipeItemComponent {
-  @Input() recipe:Recipe;
-  @Input() recipeId:number;
+  @Input() recipe: Recipe;
+  @Input() recipeId: number;
 }

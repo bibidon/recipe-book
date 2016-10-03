@@ -2,7 +2,8 @@ import {Injectable, EventEmitter} from '@angular/core';
 import {Headers, Http, Response} from "@angular/http";
 
 import {Recipe} from "./recipe";
-import {Ingredient} from "../shared";
+import {Ingredient} from "../shared/ingredient";
+
 
 @Injectable()
 export class RecipeService {

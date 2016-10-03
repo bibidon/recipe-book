@@ -1,2 +1,2 @@
-export * from './environment';
-export * from './recipe-book.component';
+export {environment} from './environment';
+export {RecipeBookComponent} from './recipe-book.component';

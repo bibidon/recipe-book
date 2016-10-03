@@ -36,11 +36,9 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
-  'app/resipes',
   'app/recipes',
   'app/recipes/recipe-list',
   'app/recipes/recipe-detail',
-  'app/recipes/shopping-list',
   'app/shopping-list',
   'app/shopping-list/shopping-list-add',
   'app/recipes/recipe-edit',
